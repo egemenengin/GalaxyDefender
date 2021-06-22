@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4674241467213971005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5733629416462122388}
+  - component: {fileID: 3491882383145204003}
+  - component: {fileID: 1444836632895672459}
+  - component: {fileID: -7142625404489046621}
+  - component: {fileID: -3883377314829617516}
+  - component: {fileID: -8586835051627739632}
+  m_Layer: 11
+  m_Name: Green Laser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5733629416462122388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674241467213971005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.643, y: -1.355, z: -6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3491882383145204003
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674241467213971005}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3523d9dfca6d4314084cbc1886f9cd89, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.48, y: 0.46}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!60 &1444836632895672459
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674241467213971005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8, y: 0.76666665}
+    newSize: {x: 0.48, y: 0.46}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.24276853, y: 0.0794152}
+      - {x: 0.22494888, y: 0.13241231}
+      - {x: 0.19150782, y: 0.18670976}
+      - {x: 0.13384366, y: 0.22724748}
+      - {x: 0.088201046, y: 0.2319516}
+      - {x: 0.071009636, y: 0.32035315}
+      - {x: 0.02821941, y: 0.38359198}
+      - {x: -0.032012783, y: 0.38333336}
+      - {x: -0.07756269, y: 0.3118471}
+      - {x: -0.082057476, y: 0.23991787}
+      - {x: -0.13961959, y: 0.21980917}
+      - {x: -0.178689, y: 0.18569112}
+      - {x: -0.21859837, y: 0.13338447}
+      - {x: -0.23593283, y: 0.07520187}
+      - {x: -0.31945693, y: 0.06940365}
+      - {x: -0.36691988, y: 0.053012967}
+      - {x: -0.38514394, y: 0.028851457}
+      - {x: -0.3865713, y: -0.03323412}
+      - {x: -0.37820983, y: -0.044115186}
+      - {x: -0.3268121, y: -0.07678183}
+      - {x: -0.24017787, y: -0.08232844}
+      - {x: -0.20367658, y: -0.17804909}
+      - {x: -0.13790011, y: -0.22143543}
+      - {x: -0.08027971, y: -0.2602085}
+      - {x: -0.0645287, y: -0.3470664}
+      - {x: -0.038506337, y: -0.38057473}
+      - {x: 0.036129832, y: -0.38233232}
+      - {x: 0.069827996, y: -0.34551826}
+      - {x: 0.076880574, y: -0.2591772}
+      - {x: 0.11137462, y: -0.24161685}
+      - {x: 0.15436196, y: -0.21337128}
+      - {x: 0.19842815, y: -0.17552435}
+      - {x: 0.23709178, y: -0.12841141}
+      - {x: 0.24070013, y: -0.085508585}
+      - {x: 0.33307266, y: -0.069404244}
+      - {x: 0.3802352, y: -0.04444027}
+      - {x: 0.38919574, y: -0.01669652}
+      - {x: 0.38232797, y: 0.034253664}
+      - {x: 0.35899362, y: 0.053191185}
+--- !u!50 &-7142625404489046621
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674241467213971005}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-3883377314829617516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674241467213971005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba825589eba42347b6c3aebc284280a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
+--- !u!114 &-8586835051627739632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674241467213971005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77b1ddb064138a40bd27e5225e6587d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedOfSpin: 90
